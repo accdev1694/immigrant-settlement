@@ -1,0 +1,42 @@
+{
+  "name": "immigrant-settlement",
+  "version": "1.0.0",
+  "description": "A comprehensive settlement guide for immigrants in the UK",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint . --ext .js --fix",
+    "format": "prettier --write \"**/*.{js,json,md,html,css}\"",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/accdev1694/immigrant-settlement.git"
+  },
+  "keywords": [
+    "immigration",
+    "settlement",
+    "uk",
+    "community",
+    "guide"
+  ],
+  "author": "Oloche Aboje",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/accdev1694/immigrant-settlement/issues"
+  },
+  "homepage": "https://github.com/accdev1694/immigrant-settlement#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "eslint": "^9.16.0",
+    "globals": "^15.13.0",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2"
+  }
+}
